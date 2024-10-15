@@ -1,1 +1,8 @@
-<app-nx-welcome class="p-0 bg-background"></app-nx-welcome> <router-outlet></router-outlet>
+<div class="flex w-full">
+  <aside class="flex flex-col">
+    <button apx-link-button routerLink="button">Button</button>
+  </aside>
+  <main class="px-4">
+    <router-outlet></router-outlet>
+  </main>
+</div>
