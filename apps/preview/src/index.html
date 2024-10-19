@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -8,6 +8,27 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script>
+      if (localStorage.darkMode === "dark") {
+        if (document && document.documentElement) {
+          document.documentElement.classList.add("dark");
+        }
+      } else if (localStorage.darkMode === "light") {
+        if (document && document.documentElement) {
+          document.documentElement.classList.remove("dark");
+          localStorage.setItem("darkMode", "light");
+        }
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        localStorage.setItem("darkMode", "system");
+        if (document && document.documentElement) {
+          document.documentElement.classList.add("dark");
+        }
+      } else {
+        if (document && document.documentElement) {
+          document.documentElement.classList.remove("dark");
+        }
+      }
+    </script>
   </head>
   <body>
     <app-root></app-root>
