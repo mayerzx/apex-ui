@@ -1,0 +1,27 @@
+.app-header {
+  @apply block sticky w-full top-0 z-40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sm:px-4 border-b border-border;
+}
+
+.app-header-container {
+  @apply mx-auto flex w-full max-w-screen-xl items-center justify-between h-14;
+}
+
+.app-header-left-side {
+  @apply flex items-center;
+}
+
+.app-header-right-side {
+  @apply flex space-x-2;
+}
+
+.app-header-link {
+  @apply transition-colors hover:text-foreground/80 text-foreground/60;
+}
+
+.app-header-link--active {
+  @apply text-foreground;
+}
+
+.app-header-nav {
+  @apply flex items-center gap-4 text-sm font-medium lg:gap-6;
+}
