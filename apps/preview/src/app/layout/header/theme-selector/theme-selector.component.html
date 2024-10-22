@@ -1,0 +1,14 @@
+<button aria-label="Select from theme" apx-ghost-button size="sm" [apxMenuTriggerFor]="menu" align="end">
+  <apx-icon name="lucideMoon" size="sm"></apx-icon>
+</button>
+
+<ng-template #menu>
+  <apx-menu>
+    <button apxMenuItem>Test item</button>
+    <button apxMenuItem>Test item</button>
+    <button apxMenuItem>Test item</button>
+    <!--    <apx-menu-item-checkbox [checked]="isLight()" (triggered)="updateTheme('light')">Light</apx-menu-item-checkbox>-->
+    <!--    <apx-menu-item-checkbox [checked]="isDark()" (triggered)="updateTheme('dark')">Dark</apx-menu-item-checkbox>-->
+    <!--    <apx-menu-item-checkbox [checked]="isSystem()" (triggered)="updateTheme('system')">System</apx-menu-item-checkbox>-->
+  </apx-menu>
+</ng-template>

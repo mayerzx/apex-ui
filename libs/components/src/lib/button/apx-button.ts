@@ -50,7 +50,7 @@ export class ApxButtonComponent {
   private readonly _elementRef = inject<ElementRef<HTMLElement>>(ElementRef);
   protected classes = computed(() => `apx-button-size--${this.size()}`);
 
-  public size = input<ApxElementSize>('default');
+  public size = input<ApxElementSize>('base');
 
   public constructor() {
     const element = this._elementRef.nativeElement;

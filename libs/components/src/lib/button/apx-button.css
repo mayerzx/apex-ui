@@ -26,14 +26,14 @@
   @apply relative;
 }
 
-.apx-button-size--default {
+.apx-button-size--base {
   @apply h-10 py-2 px-4;
 }
 
-.apx-button-size--small {
+.apx-button-size--sm {
   @apply h-9 px-3 rounded-md;
 }
 
-.apx-button-size--large {
+.apx-button-size--lg {
   @apply h-11 px-8 rounded-md;
 }

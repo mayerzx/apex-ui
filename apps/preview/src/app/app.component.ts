@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { ApxButtonComponent } from '@apex-ui/components';
-import { HeaderComponent } from './layout/header.component';
+import { HeaderComponent } from './layout/header/header.component';
 
 @Component({
   standalone: true,

@@ -1,1 +1,1 @@
-export type ApxElementSize = 'default' | 'small' | 'large';
+export type ApxElementSize = 'base' | 'sm' | 'lg';

@@ -1,0 +1,3 @@
+.apx-menu-shortcut {
+  @apply ml-auto font-light text-xs tracking-widest opacity-60;
+}

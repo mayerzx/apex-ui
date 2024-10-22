@@ -1,0 +1,7 @@
+.apx-menubar {
+  @apply border-border flex h-10 items-center space-x-1 rounded-md border bg-background p-1 my-2;
+}
+
+.apx-menubar-item {
+  @apply flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none focus:bg-accent focus:text-accent-foreground aria-expanded:bg-accent aria-expanded:text-accent-foreground;
+}

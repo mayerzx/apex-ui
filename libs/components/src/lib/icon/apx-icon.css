@@ -1,0 +1,22 @@
+.apx-icon {
+  @apply inline-flex;
+}
+.apx-icon-size--xs {
+  @apply h-3 w-3;
+}
+
+.apx-icon-size--sm {
+  @apply h-4 w-4;
+}
+
+.apx-icon-size--base {
+  @apply h-6 w-6;
+}
+
+.apx-icon-size--lg {
+  @apply h-8 w-8;
+}
+
+.apx-icon-size--xl {
+  @apply h-12 w-12;
+}
